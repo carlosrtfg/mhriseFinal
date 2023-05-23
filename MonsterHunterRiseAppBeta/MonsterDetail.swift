@@ -15,7 +15,6 @@ struct MonsterDetail: View {
     var body: some View {
         
         //nivigation list con diseño de "card" para mostrar el monstruo y sus datos
-        //intento 2
         
         NavigationStack {
             
