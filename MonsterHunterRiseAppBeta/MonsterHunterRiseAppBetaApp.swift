@@ -6,8 +6,7 @@ struct MonsterHunterRiseAppBetaApp: App {
     
     var body: some Scene {
         WindowGroup {
-            MonstersView()
-                .environmentObject(monsters)
+            LaunchScreenView()
         }
     }
 }

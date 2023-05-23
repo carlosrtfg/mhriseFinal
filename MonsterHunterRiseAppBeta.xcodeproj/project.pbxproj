@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		B8813FFB2A09527A00D625AF /* MonsterDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8813FFA2A09527A00D625AF /* MonsterDetail.swift */; };
+		B89EF19E2A1D10B4009AB659 /* LaunchScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B89EF19D2A1D10B3009AB659 /* LaunchScreenView.swift */; };
 		B8A978C42A02FA2C00B8BC5B /* MonsterHunterRiseAppBetaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8A978C32A02FA2C00B8BC5B /* MonsterHunterRiseAppBetaApp.swift */; };
 		B8A978C82A02FA2D00B8BC5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8A978C72A02FA2D00B8BC5B /* Assets.xcassets */; };
 		B8A978CB2A02FA2D00B8BC5B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8A978CA2A02FA2D00B8BC5B /* Preview Assets.xcassets */; };
@@ -19,6 +20,7 @@
 
 /* Begin PBXFileReference section */
 		B8813FFA2A09527A00D625AF /* MonsterDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonsterDetail.swift; sourceTree = "<group>"; };
+		B89EF19D2A1D10B3009AB659 /* LaunchScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreenView.swift; sourceTree = "<group>"; };
 		B8A978C02A02FA2C00B8BC5B /* MonsterHunterRiseAppBeta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MonsterHunterRiseAppBeta.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8A978C32A02FA2C00B8BC5B /* MonsterHunterRiseAppBetaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonsterHunterRiseAppBetaApp.swift; sourceTree = "<group>"; };
 		B8A978C72A02FA2D00B8BC5B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -64,6 +66,7 @@
 				B8A978D52A03095400B8BC5B /* MonstersView.swift */,
 				B8A978D72A03120400B8BC5B /* MonsterModel.swift */,
 				B8813FFA2A09527A00D625AF /* MonsterDetail.swift */,
+				B89EF19D2A1D10B3009AB659 /* LaunchScreenView.swift */,
 				B8A978D92A03124900B8BC5B /* monsters.json */,
 				B8A978C72A02FA2D00B8BC5B /* Assets.xcassets */,
 				B8A978C92A02FA2D00B8BC5B /* Preview Content */,
@@ -151,6 +154,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B89EF19E2A1D10B4009AB659 /* LaunchScreenView.swift in Sources */,
 				B8A978D82A03120400B8BC5B /* MonsterModel.swift in Sources */,
 				B8A978D62A03095400B8BC5B /* MonstersView.swift in Sources */,
 				B8813FFB2A09527A00D625AF /* MonsterDetail.swift in Sources */,
