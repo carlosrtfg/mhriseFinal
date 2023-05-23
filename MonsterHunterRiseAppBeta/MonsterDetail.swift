@@ -13,6 +13,8 @@ struct MonsterDetail: View {
     var monsterSizeSmall: Double
     
     var body: some View {
+        
+        //nivigation list con diseño de "card" para mostrar el monstruo y sus datos
         NavigationStack {
             
             List() {
