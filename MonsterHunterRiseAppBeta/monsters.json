@@ -1,0 +1,434 @@
+[{
+    "id": "1",
+    "name": "Aknosom",
+    "image": "https://static.wikia.nocookie.net/monsterhunter/images/2/23/MHRise-Aknosom_Render_001.png/revision/latest?cb=20200917143656",
+    "monsterClass": "Bird Wyvern",
+    "element": "Fire",
+    "ailments": [
+        "Fireblight"
+    ],
+    "weakestTo": [
+        "Water",
+        "Thunder"
+    ],
+    "Habitat": [
+        "Shrine Ruins",
+        "Frost Islands"
+    ],
+    "size": {
+        "smallGoldelCrown": 763.72,
+        "bigGoldelCrown": 1043.75
+    }
+},{
+    "id": "2",
+    "name": "Almudron",
+    "image": "https://static.wikia.nocookie.net/monsterhunter/images/7/71/MHRise-Almudron_Render_001.png/revision/latest/scale-to-width-down/700?cb=20210217222745",
+    "monsterClass": "Leviathan",
+    "element": "Water",
+    "ailments": [
+        "Waterblight",
+        "Muddy"
+    ],
+    "weakestTo": [
+        "Fire",
+        "Ice"
+    ],
+    "Habitat": [
+        "Shrine Ruins",
+        "Sandy Plains",
+        "Flooded Forest"
+    ],
+    "size": {
+        "smallGoldelCrown": 2425.04,
+        "bigGoldelCrown": 3341.18
+    }
+},{
+    "id": "3",
+    "name": "Anjanath",
+    "image": "https://static.wikia.nocookie.net/monsterhunter/images/6/6b/MHRise-Anjanath_Render_001.png/revision/latest/scale-to-width-down/700?cb=20210308144806",
+    "monsterClass": "Brute Wyvern",
+    "element": "Fire",
+    "ailments": [
+        "fireblight"
+    ],
+    "weakestTo": [
+        "Water"
+    ],
+    "Habitat": [
+        "Shrine Ruins",
+        "Sandy Plains",
+        "Flooded Forest",
+        "Lava caverns"
+    ],
+    "size": {
+        "smallGoldelCrown": 2008.68,
+        "bigGoldelCrown": 1448.88
+    }
+},{
+    "id": "4",
+    "name": "Arzuros",
+    "image": "https://static.wikia.nocookie.net/monsterhunterespanol/images/b/b9/MHRise-Render_Arzuros.png/revision/latest?cb=20210324215044&path-prefix=es",
+    "monsterClass": "Fanged Beast",
+    "element": "None",
+    "ailments": [
+        "None"
+    ],
+    "weakestTo": [
+        "Fire",
+        "Ice"
+    ],
+    "Habitat": [
+        "Shrine Ruins",
+        "Flooded Forest"
+    ],
+    "size": {
+        "smallGoldelCrown": 501.34,
+        "bigGoldelCrown": 697.62
+    }
+},{
+    "id": "5",
+    "name": "Apex Arzuros",
+    "image": "https://static.wikia.nocookie.net/monsterhunter/images/b/b0/MHRise-Apex_Arzuros_Render_001.png/revision/latest?cb=20210308144111",
+    "monsterClass": "Fanged Beast",
+    "element": "None",
+    "ailments": [
+        "Stun"
+    ],
+    "weakestTo": [
+        "Fire",
+        "Blast"
+    ],
+    "Habitat": [
+        "Shrine Ruins",
+        "Flooded Forest"
+    ],
+    "size": {
+        "smallGoldelCrown": 674.78,
+        "bigGoldelCrown": 745.81
+    }
+},{
+    "id": "6",
+    "name": "Barioth",
+    "image": "https://static.wikia.nocookie.net/monsterhunter/images/2/2f/MHRise-Barioth_Render_001.png/revision/latest?cb=20210107151601",
+    "monsterClass": "Flying Wyvern",
+    "element": "Ice",
+    "ailments": [
+        "Iceblight",
+        "Snowman"
+    ],
+    "weakestTo": [
+        "Fire",
+        "Thunder"
+    ],
+    "Habitat": [
+        "Frost Islands"
+    ],
+    "size": {
+        "smallGoldelCrown": 1888.47,
+        "bigGoldelCrown": 2580.91
+    }
+},{
+    "id": "7",
+    "name": "Barroth",
+    "image": "https://static.wikia.nocookie.net/monsterhunter/images/3/3a/MHRise-Barroth_Render_001.png/revision/latest?cb=20210501170957",
+    "monsterClass": "Brute Wyvern",
+    "element": "Water",
+    "ailments": [
+        "Muddy",
+        "Waterblight"
+    ],
+    "weakestTo": [
+        "Poison",
+        "Paralysis",
+        "blast"
+    ],
+    "Habitat": [
+        "Sandy Plains"
+    ],
+    "size": {
+        "smallGoldelCrown": 1217.1,
+        "bigGoldelCrown": 1744.3
+    }
+},{
+    "id": "8",
+    "name": "Bazelgeuse",
+    "image": "https://static.wikia.nocookie.net/monsterhunter/images/e/e2/MHW-Bazelgeuse_Render_001.png/revision/latest/scale-to-width-down/1000?cb=20180224091735",
+    "monsterClass": "Flying Wyvern",
+    "element": "Fire",
+    "ailments": [
+        "Fireblight"
+    ],
+    "weakestTo": [
+        "Thunder",
+        "Ice",
+        "Draco"
+    ],
+    "Habitat": [
+        "Sandy Plains",
+        "Shrine Ruins",
+        "Frost Islands",
+        "Flooded Forest",
+        "Lava Caverns"
+    ],
+    "size": {
+        "smallGoldelCrown": 1696.97,
+        "bigGoldelCrown": 2410.48
+    }
+},{
+    "id": "9",
+    "name": "Basarios",
+    "image": "https://static.wikia.nocookie.net/monsterhunter/images/3/36/MHRise-Basarios_Render_001.png/revision/latest/scale-to-width-down/700?cb=20210217223050",
+    "monsterClass": "Flying Wyvern",
+    "element": "Fire",
+    "ailments": [
+        "Fireblight",
+        "Poison",
+        "Noxious Poison",
+        "Sleep"
+    ],
+    "weakestTo": [
+        "Water",
+        "Draco"
+    ],
+    "Habitat": [
+        "Sandy Plains",
+        "Lava Caverns"
+    ],
+    "size": {
+        "smallGoldelCrown": 1154.9,
+        "bigGoldelCrown": 1754.6
+    }
+},{
+    "id": "10",
+    "name": "Bishaten",
+    "image": "https://static.wikia.nocookie.net/monsterhunter/images/e/eb/MHRise-Bishaten_Render_001.png/revision/latest/scale-to-width-down/700?cb=20201211021621",
+    "monsterClass": "Fanged Wyvern",
+    "element": "None",
+    "ailments": [
+        "Poison",
+        "Stun",
+        "Paralysis"
+    ],
+    "weakestTo": [
+        "Ice",
+        "Blast"
+    ],
+    "Habitat": [
+        "Shrine Ruins",
+        "Flooded Forest"
+    ],
+    "size": {
+        "smallGoldelCrown": 832.3,
+        "bigGoldelCrown": 1054.26
+    }
+},{
+    "id": "11",
+    "name": "Chameleos",
+    "image": "https://static.wikia.nocookie.net/monsterhunter/images/0/0d/MHRise-Chameleos_Render_001.png/revision/latest/scale-to-width-down/699?cb=20210427142621",
+    "monsterClass": "Elder Dragon",
+    "element": "Dragon",
+    "ailments": [
+        "Poison",
+        "Noxious Poison",
+        "Defense Down",
+        "Damage down"
+    ],
+    "weakestTo": [
+        "Draco",
+        "Fire",
+        "Blast"
+    ],
+    "Habitat": [
+        "Shrine Ruins",
+        "Flooded Forest"
+    ],
+    "size": {
+        "smallGoldelCrown": 2181.58,
+        "bigGoldelCrown": 2811.32
+    }
+},{
+    "id": "12",
+    "name": "Diablos",
+    "image": "https://static.wikia.nocookie.net/monsterhunter/images/3/39/MHRise-Diablos_Render_001.png/revision/latest/scale-to-width-down/700?cb=20210217223736",
+    "monsterClass": "Flying Wyvern",
+    "element": "None",
+    "ailments": [
+        "None"
+    ],
+    "weakestTo": [
+        "Ice",
+        "Paralysis"
+    ],
+    "Habitat": [
+        "Sandy Plains"
+    ],
+    "size": {
+        "smallGoldelCrown": 1796.26,
+        "bigGoldelCrown": 2578.38
+    }
+},{
+    "id": "13",
+    "name": "Apex Diablos",
+    "image": "https://static.wikia.nocookie.net/monsterhunter/images/7/7e/MHRise-Apex_Diablos_Render_001.png/revision/latest/scale-to-width-down/700?cb=20210427142753",
+    "monsterClass": "Flying Wyvern",
+    "element": "None",
+    "ailments": [
+        "None"
+    ],
+    "weakestTo": [
+        "Ice",
+        "Blast",
+        "Draco"
+    ],
+    "Habitat": [
+        "Sandy Plains"
+    ],
+    "size": {
+        "smallGoldelCrown": 2202.81,
+        "bigGoldelCrown": 2793.25
+    }
+},{
+    "id": "14",
+    "name": "Goss Harag",
+    "image": "https://static.wikia.nocookie.net/monsterhunter/images/7/77/MHRise-Goss_Harag_Render_001.png/revision/latest/scale-to-width-down/699?cb=20210107143026",
+    "monsterClass": "Fanged Beast",
+    "element": "Ice",
+    "ailments": [
+        "Iceblight",
+        "Stun"
+    ],
+    "weakestTo": [
+        "Fire",
+        "Thunder"
+    ],
+    "Habitat": [
+        "Frost Islands"
+    ],
+    "size": {
+        "smallGoldelCrown": 657.87,
+        "bigGoldelCrown": 906.04
+    }
+},{
+    "id": "15",
+    "name": "Great Baggi",
+    "image": "https://static.wikia.nocookie.net/monsterhunter/images/a/a7/MHRise-Great_Baggi_Render_001.png/revision/latest/scale-to-width-down/700?cb=20210107145723",
+    "monsterClass": "Bird Wyvern",
+    "element": "Ice",
+    "ailments": [
+        "Sleep"
+    ],
+    "weakestTo": [
+        "Fire"
+    ],
+    "Habitat": [
+        "Frost Islands"
+    ],
+    "size": {
+        "smallGoldelCrown": 839.12,
+        "bigGoldelCrown": 1457.97
+    }
+},{
+    "id": "16",
+    "name": "Great Izuchi",
+    "image": "https://static.wikia.nocookie.net/monsterhunter/images/8/8e/MHRise-Great_Izuchi_Render_001.png/revision/latest?cb=20210111072217",
+    "monsterClass": "Bird Wyvern",
+    "element": "None",
+    "ailments": [
+        "None"
+    ],
+    "weakestTo": [
+        "Thunder",
+        "Water"
+    ],
+    "Habitat": [
+        "Shrine Ruins",
+        "Frost Island"
+    ],
+    "size": {
+        "smallGoldelCrown": 946.08,
+        "bigGoldelCrown": 1343.87
+    }
+},{
+    "id": "17",
+    "name": "Great Wroggi",
+    "image": "https://static.wikia.nocookie.net/monsterhunter/images/9/91/MHRise-Great_Wroggi_Render_001.png/revision/latest/scale-to-width-down/700?cb=20201211023428",
+    "monsterClass": "Bird Wyvern",
+    "element": "None",
+    "ailments": [
+        "Poison",
+    ],
+    "weakestTo": [
+        "Ice"
+    ],
+    "Habitat": [
+        "Desert Island",
+        "Shrine Ruins",
+        "Flooded Forest",
+        "Lava Caverns"
+    ],
+    "size": {
+        "smallGoldelCrown": 831.70,
+        "bigGoldelCrown": 1168.13
+    }
+},{
+    "id": "18",
+    "name": "Jyuratodus",
+    "image": "https://static.wikia.nocookie.net/monsterhunter/images/e/ed/MHW-Jyuratodus_Render_001.png/revision/latest/scale-to-width-down/185?cb=20171204115016",
+    "monsterClass": "Piscine Wyvern",
+    "element": "Water",
+    "ailments": [
+        "Waterblight",
+        "Muddy"
+    ],
+    "weakestTo": [
+        "Thunder",
+        "Watter"
+    ],
+    "Habitat": [
+        "Flooded Forest"
+    ],
+    "size": {
+        "smallGoldelCrown": 1327.66,
+        "bigGoldelCrown": 1885.89
+    }
+},{
+    "id": "19",
+    "name": "Khezu",
+    "image": "https://static.wikia.nocookie.net/monsterhunter/images/8/85/MHRise-Khezu_Render_001.png/revision/latest/scale-to-width-down/700?cb=20210107145339",
+    "monsterClass": "Flying Wyvern",
+    "element": "Thunder",
+    "ailments": [
+        "Thunderblight",
+        "Paralysis",
+        "Stun"
+    ],
+    "weakestTo": [
+        "Fire"
+    ],
+    "Habitat": [
+        "Frost Island"
+    ],
+    "size": {
+        "smallGoldelCrown": 1225.50,
+        "bigGoldelCrown": 436.60
+    }
+},{
+    "id": "20",
+    "name": "Kulu-Ya-Ku",
+    "image": "https://static.wikia.nocookie.net/monsterhunter/images/0/0e/MHRise-Kulu-Ya-Ku_Render_001.png/revision/latest/scale-to-width-down/699?cb=20210308150155",
+    "monsterClass": "Bird Wyvern",
+    "element": "None",
+    "ailments": [
+        "Stun"
+    ],
+    "weakestTo": [
+        "Water"
+    ],
+    "Habitat": [
+        "Shrine Ruins"
+    ],
+    "size": {
+        "smallGoldelCrown": 802.10,
+        "bigGoldelCrown": 1126.55
+    }
+}]
