@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B850EED82A26210D00CE75BD /* MonsterModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B850EED72A26210D00CE75BD /* MonsterModelTest.swift */; };
+		B850EEDA2A26233700CE75BD /* MonsterViewTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B850EED92A26233700CE75BD /* MonsterViewTest.swift */; };
+		B850EEDC2A2623A100CE75BD /* MonsterDetailTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B850EEDB2A2623A100CE75BD /* MonsterDetailTest.swift */; };
 		B8813FFB2A09527A00D625AF /* MonsterDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8813FFA2A09527A00D625AF /* MonsterDetail.swift */; };
 		B89EF19E2A1D10B4009AB659 /* LaunchScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B89EF19D2A1D10B3009AB659 /* LaunchScreenView.swift */; };
 		B8A978C42A02FA2C00B8BC5B /* MonsterHunterRiseAppBetaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8A978C32A02FA2C00B8BC5B /* MonsterHunterRiseAppBetaApp.swift */; };
@@ -18,7 +21,21 @@
 		B8E315ED2A0FCCD000345273 /* File in Resources */ = {isa = PBXBuildFile; fileRef = B8E315EC2A0FCCD000345273 /* File */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		B850EED22A1FB7E000CE75BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B8A978B82A02FA2C00B8BC5B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B8A978BF2A02FA2C00B8BC5B;
+			remoteInfo = MonsterHunterRiseAppBeta;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		B850EECE2A1FB7E000CE75BD /* MonsterHunterRiseAppBetaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MonsterHunterRiseAppBetaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B850EED72A26210D00CE75BD /* MonsterModelTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonsterModelTest.swift; sourceTree = "<group>"; };
+		B850EED92A26233700CE75BD /* MonsterViewTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonsterViewTest.swift; sourceTree = "<group>"; };
+		B850EEDB2A2623A100CE75BD /* MonsterDetailTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonsterDetailTest.swift; sourceTree = "<group>"; };
 		B8813FFA2A09527A00D625AF /* MonsterDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonsterDetail.swift; sourceTree = "<group>"; };
 		B89EF19D2A1D10B3009AB659 /* LaunchScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreenView.swift; sourceTree = "<group>"; };
 		B8A978C02A02FA2C00B8BC5B /* MonsterHunterRiseAppBeta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MonsterHunterRiseAppBeta.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -32,6 +49,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		B850EECB2A1FB7E000CE75BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B8A978BD2A02FA2C00B8BC5B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -42,11 +66,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B850EECF2A1FB7E000CE75BD /* MonsterHunterRiseAppBetaTests */ = {
+			isa = PBXGroup;
+			children = (
+				B850EED72A26210D00CE75BD /* MonsterModelTest.swift */,
+				B850EED92A26233700CE75BD /* MonsterViewTest.swift */,
+				B850EEDB2A2623A100CE75BD /* MonsterDetailTest.swift */,
+			);
+			path = MonsterHunterRiseAppBetaTests;
+			sourceTree = "<group>";
+		};
 		B8A978B72A02FA2C00B8BC5B = {
 			isa = PBXGroup;
 			children = (
 				B8E315EC2A0FCCD000345273 /* File */,
 				B8A978C22A02FA2C00B8BC5B /* MonsterHunterRiseAppBeta */,
+				B850EECF2A1FB7E000CE75BD /* MonsterHunterRiseAppBetaTests */,
 				B8A978C12A02FA2C00B8BC5B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -55,6 +90,7 @@
 			isa = PBXGroup;
 			children = (
 				B8A978C02A02FA2C00B8BC5B /* MonsterHunterRiseAppBeta.app */,
+				B850EECE2A1FB7E000CE75BD /* MonsterHunterRiseAppBetaTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -85,6 +121,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		B850EECD2A1FB7E000CE75BD /* MonsterHunterRiseAppBetaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B850EED62A1FB7E000CE75BD /* Build configuration list for PBXNativeTarget "MonsterHunterRiseAppBetaTests" */;
+			buildPhases = (
+				B850EECA2A1FB7E000CE75BD /* Sources */,
+				B850EECB2A1FB7E000CE75BD /* Frameworks */,
+				B850EECC2A1FB7E000CE75BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B850EED32A1FB7E000CE75BD /* PBXTargetDependency */,
+			);
+			name = MonsterHunterRiseAppBetaTests;
+			productName = MonsterHunterRiseAppBetaTests;
+			productReference = B850EECE2A1FB7E000CE75BD /* MonsterHunterRiseAppBetaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		B8A978BF2A02FA2C00B8BC5B /* MonsterHunterRiseAppBeta */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = B8A978CE2A02FA2D00B8BC5B /* Build configuration list for PBXNativeTarget "MonsterHunterRiseAppBeta" */;
@@ -112,6 +166,10 @@
 				LastSwiftUpdateCheck = 1430;
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
+					B850EECD2A1FB7E000CE75BD = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = B8A978BF2A02FA2C00B8BC5B;
+					};
 					B8A978BF2A02FA2C00B8BC5B = {
 						CreatedOnToolsVersion = 14.3;
 					};
@@ -131,11 +189,19 @@
 			projectRoot = "";
 			targets = (
 				B8A978BF2A02FA2C00B8BC5B /* MonsterHunterRiseAppBeta */,
+				B850EECD2A1FB7E000CE75BD /* MonsterHunterRiseAppBetaTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		B850EECC2A1FB7E000CE75BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B8A978BE2A02FA2C00B8BC5B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -150,6 +216,16 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		B850EECA2A1FB7E000CE75BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B850EED82A26210D00CE75BD /* MonsterModelTest.swift in Sources */,
+				B850EEDC2A2623A100CE75BD /* MonsterDetailTest.swift in Sources */,
+				B850EEDA2A26233700CE75BD /* MonsterViewTest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B8A978BC2A02FA2C00B8BC5B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -164,7 +240,51 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		B850EED32A1FB7E000CE75BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B8A978BF2A02FA2C00B8BC5B /* MonsterHunterRiseAppBeta */;
+			targetProxy = B850EED22A1FB7E000CE75BD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		B850EED42A1FB7E000CE75BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8359Q6XW24;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.carlos.MonsterHunterRiseAppBetaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MonsterHunterRiseAppBeta.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MonsterHunterRiseAppBeta";
+			};
+			name = Debug;
+		};
+		B850EED52A1FB7E000CE75BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8359Q6XW24;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.carlos.MonsterHunterRiseAppBetaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MonsterHunterRiseAppBeta.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MonsterHunterRiseAppBeta";
+			};
+			name = Release;
+		};
 		B8A978CC2A02FA2D00B8BC5B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -344,6 +464,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		B850EED62A1FB7E000CE75BD /* Build configuration list for PBXNativeTarget "MonsterHunterRiseAppBetaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B850EED42A1FB7E000CE75BD /* Debug */,
+				B850EED52A1FB7E000CE75BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		B8A978BB2A02FA2C00B8BC5B /* Build configuration list for PBXProject "MonsterHunterRiseAppBeta" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

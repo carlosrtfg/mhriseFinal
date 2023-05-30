@@ -1,13 +1,8 @@
-//
-//  LaunchScreenView.swift
-//  MonsterHunterRiseAppBeta
-//
-//  Created by Carlos Rodriguez toledo on 23/5/23.
-//
-
 import SwiftUI
 
 struct LaunchScreenView: View {
+    
+    //variables inicializadas(es necesario tener variables para poder poder actualizarlas y que el efecto funcione, no deja actualizar "en linea")
     @State private var isActive = false
     @State private var size = 0.8
     @State private var opacity = 0.5
